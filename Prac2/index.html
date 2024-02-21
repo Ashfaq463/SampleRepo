@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel = "stylesheet" href = "sytles.css">
+    <script src = "script.js"></script>
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Registration Form</h2>
+
+            <form action="#">
+                <div class="form-container">
+                    
+                    <label for = "name">Name : </label>
+                    <input type = "text" name = "name" class = "form-control" id = "Name" placeholder = "Enter your Name"><br>
+
+                    <label for = "email">Email-ID :</label>
+                    <input type = "email" name = "email" class = "form-control" id = "Email" placeholder = "Enter Email-Id"><br>
+
+                    <label for = "Password">Password : </label>
+                    <input type = "password" name = "Password" class = "form-control" id = "Password" placeholder = "Enter Password">
+
+                 </div>
+
+                 <div class="submit-button">
+                    <button type = "button" value = "submit" class = "btn btn-primary" onclick = "saveData()">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
